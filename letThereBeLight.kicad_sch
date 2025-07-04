@@ -1736,16 +1736,16 @@
 		(uuid "feb244f8-a16e-4eff-9554-348cccf87d56")
 	)
 	(junction
-		(at 224.79 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "203d4c91-d6f7-4ead-8d0c-fbe9ee6b2ab8")
-	)
-	(junction
 		(at 68.58 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "377051a6-7573-467a-bd57-b0715001f13e")
+	)
+	(junction
+		(at 68.58 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "591fcacd-a0d1-489b-8f0a-cc75bdc70ee7")
 	)
 	(junction
 		(at 190.5 93.98)
@@ -1774,7 +1774,7 @@
 		(uuid "5f288799-df64-4fcf-809d-c9833216fc7f")
 	)
 	(no_connect
-		(at 66.04 91.44)
+		(at 66.04 93.98)
 		(uuid "a429d1c3-ceb3-44c0-a705-f207b8a1ac14")
 	)
 	(no_connect
@@ -1800,16 +1800,6 @@
 			(type default)
 		)
 		(uuid "121f4ac6-6d9b-4e5f-bec5-2ed0bf8bce04")
-	)
-	(wire
-		(pts
-			(xy 224.79 95.25) (xy 234.95 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135993cf-15a2-468e-9958-e597c465e15d")
 	)
 	(wire
 		(pts
@@ -1913,16 +1903,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 91.44) (xy 224.79 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e35a01-b3ab-4058-acd8-daad32b2ab0b")
-	)
-	(wire
-		(pts
 			(xy 162.56 93.98) (xy 162.56 96.52)
 		)
 		(stroke
@@ -1953,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 95.25) (xy 224.79 96.52)
+			(xy 224.79 91.44) (xy 224.79 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1970,6 +1950,16 @@
 			(type default)
 		)
 		(uuid "81d26f54-235c-4767-a194-cc3c2ca6a281")
+	)
+	(wire
+		(pts
+			(xy 71.12 91.44) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaddce7e-e6df-4c15-a999-52eb01a5f895")
 	)
 	(wire
 		(pts
@@ -2013,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 68.58 109.22)
+			(xy 68.58 101.6) (xy 68.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2030,6 +2020,16 @@
 			(type default)
 		)
 		(uuid "e5062672-ba15-46d3-b93d-4216c0bdd0aa")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f160ae-ce57-44eb-8b09-a939ebf54568")
 	)
 	(image
 		(at 199.39 173.99)
@@ -6634,16 +6634,6 @@
 		)
 		(uuid "46b84c20-a563-4db6-a09e-382b7944569b")
 	)
-	(label "LED"
-		(at 234.95 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d5e4522-2fc6-4c9f-885d-da77c792baa4")
-	)
 	(label "LDR"
 		(at 149.86 93.98 0)
 		(effects
@@ -6663,6 +6653,71 @@
 			(justify left bottom)
 		)
 		(uuid "e096c927-c7eb-484e-9b63-af7d4330c264")
+	)
+	(netclass_flag ""
+		(length 0.0102)
+		(shape dot)
+		(at 71.12 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "537478e7-67dd-46f4-b643-541db9281486")
+		(property "Netclass" "signal"
+			(at 71.8185 92.6998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0102)
+		(shape dot)
+		(at 224.79 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ab2ad14-4158-4ded-beda-163d2ac14b0c")
+		(property "Netclass" "signal"
+			(at 225.4885 95.2398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -49.53 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -7349,7 +7404,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 68.58 96.52 90)
+		(at 68.58 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7358,15 +7413,6 @@
 		(fields_autoplaced yes)
 		(uuid "b7410cb8-fde3-4408-a4d3-1b4def2ca490")
 		(property "Reference" "SW2"
-			(at 73.66 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_SPDT"
 			(at 73.66 97.7899 90)
 			(effects
 				(font
@@ -7375,8 +7421,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "SW_SPDT"
+			(at 73.66 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
-			(at 68.58 96.52 0)
+			(at 68.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 96.52 0)
+			(at 76.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7449,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 68.58 96.52 0)
+			(at 68.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

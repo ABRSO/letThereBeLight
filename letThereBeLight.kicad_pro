@@ -521,11 +521,34 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(BT1--)": [
+        "signal"
+      ],
+      "Net-(D1-K)": [
+        "signal"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "signal",
         "pattern": "/LDR"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/MIC"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/LED"
+      },
+      {
+        "netclass": "power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+3.3V"
       }
     ]
   },
@@ -534,7 +557,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerberFiles/letThereBeLight/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
